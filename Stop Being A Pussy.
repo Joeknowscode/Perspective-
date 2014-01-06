@@ -1,0 +1,41 @@
+puts "Welcome to Perspective"
+puts  "This Program Helps People Feel Better"
+puts "About Life."
+puts "ready?"
+gets.chomp
+puts "Ok, Lets Get Started!" + "What is your Name?"
+name = gets.chomp #this is the opening issue, make them feel like someone cares
+puts "Type In What Stresses You Out " + name.capitalize + " !"
+stressor = gets.chomp
+dis1 = ", if you had alzheimer\'s , you would forget how to wipe yourself"
+dis2 = " ,if you had Lou Gherigs Disease, your muscles would wither away and you would die a slow, painful death"
+dis3 = ",if you developed Smallpox, you could go blind, and be super itchy all the time"
+dis4 = " It is not as bad as
+Ebola. That causes hemorrhagic fever and encompasses a range of symptoms including fever,
+vomiting and diarrhea"
+
+puts "Ok, So you are telling me that " + stressor + " stresses you out?"
+gets.chomp
+puts "Stop Being Such A Pussy " + name.capitalize + " because " + dis1 #puts things into perspective, see??
+gets 
+puts "Try again, This time with something better!" #sets them up for failure, hope that they bite the bullet
+excuse2 = gets.chomp
+puts excuse2.upcase + " ! Seriously?? " +excuse2.upcase + dis2 + "That would be much worse than " + excuse2
+puts " but at least you wouldnt have to worry about " + excuse2 + " when you are dead"
+#make them feel like a little ol biatch
+gets.chomp
+puts "but, honestly " + excuse2 + " can be some stressful stuff" 
+puts "what else is bothering you " + name.capitalize + " ?"
+excuse3 = gets.chomp
+puts "Come on!!" +"that\'s nothing at all man!!!"
+puts " Do you hear yourself??" + "this is what you sound like:"
+puts stressor.upcase + " is bothering me!!" + excuse2.upcase 
+puts "and"
+puts excuse3 
+puts "is ruining my life"
+puts "boo hoo!!!! I am a computer, I have no feelings!"
+puts "your life may be less than perfect, but " +dis4 
+
+puts " Honestly " +name.capitalize+ " , you have to stop feeling sorry for yourself!"
+puts "Just remember, It could always be worse."
+puts " Have A Wonderful Day "+name.capitalize+ ", Goodbye."
